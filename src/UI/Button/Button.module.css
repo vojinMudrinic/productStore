@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #75d6ff;
+  padding: 10px;
+  cursor: pointer;
+  justify-content: center;
+  outline: unset;
+  border: unset;
+  min-height: 44px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+}
+
+.container:hover {
+  background-color: #d3f2ff;
+}

@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  border: 2px solid #75d6ff;
+  border-radius: 10px;
+  background-color: rgb(237 237 237);
+  outline: unset;
+  position: relative;
+}
+
+.svg {
+  position: absolute;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.input {
+  background-color: unset;
+  outline: unset;
+  border: unset;
+  width: 100%;
+  padding: 0 70px;
+  font-size: 20px;
+}
+
+.input::placeholder {
+  color: #75d6ff;
+}

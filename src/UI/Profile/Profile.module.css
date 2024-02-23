@@ -1,0 +1,15 @@
+.container {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container img {
+  width: 35px;
+  height: 35px;
+}

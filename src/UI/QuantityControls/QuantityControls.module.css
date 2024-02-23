@@ -1,0 +1,9 @@
+.quantityControls {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.quantityControls svg {
+  cursor: pointer;
+}

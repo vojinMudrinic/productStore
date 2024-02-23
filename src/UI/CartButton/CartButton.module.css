@@ -1,0 +1,15 @@
+.addToCart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: #75d6ff;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+}
+
+.addToCart:hover {
+  background-color: #d3f2ff;
+}

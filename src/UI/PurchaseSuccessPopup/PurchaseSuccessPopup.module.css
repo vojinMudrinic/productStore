@@ -1,0 +1,25 @@
+.popup {
+  position: fixed;
+  width: 420px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #d1ffd1;
+  gap: 20px;
+}
+
+.responsivePopup {
+  width: 84vw;
+}
+
+.button {
+  width: 100%;
+}

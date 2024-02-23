@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.disable {
+  opacity: 0.6;
+  filter: blur(1px);
+  pointer-events: none;
+}
+
+.searchControls {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.noResults {
+  width: 200px;
+  height: 200px;
+}
+
+.noResultContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
